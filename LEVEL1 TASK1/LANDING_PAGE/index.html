@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Landing Page</title>
+    <!-- BootStrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div>
+      <!-- Header Start -->
+      <div>
+        <nav
+          class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+          data-bs-theme="dark"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <i class="fa-solid fa-plane-departure text-warning"></i>
+              Travel Agency
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#destinations"
+                    >Destinations</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#journey">Journey</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#footer">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Header End -->
+
+      <!-- Main Start -->
+      <div>
+        <!-- hero section start -->
+        <div class="bg-img">
+          <div
+            class="shaded d-flex align-items-center justify-content-center flex-column"
+          >
+            <div class="container text-center hero-content">
+              <h1>Discover Your Dream Destinations</h1>
+              <h3>Explore the World with Our Expert Guides</h3>
+              <p>
+                Welcome to our travel website, where adventure begins. Whether
+                you're seeking a romantic getaway in Paris, an exploration of
+                Rome's rich history, or the vibrant energy of Tokyo, we've got
+                you covered. Our expert guides are here to make your travel
+                dreams come true. Start your journey with us today!
+              </p>
+              <button class="btn btn-warning">Explore Destinations</button>
+            </div>
+          </div>
+        </div>
+        <!-- hero section end -->
+
+        <!-- Sec1 Start -->
+        <div class="container mt-5 text-center" id="destinations">
+          <h1>Featured Destinations</h1>
+          <p>
+            Discover some of our handpicked destinations, each offering a unique
+            blend of history, culture, and natural beauty. These are the places
+            that inspire wanderlust, and we're ready to take you there.
+          </p>
+          <div
+            class="grid text-center d-flex align-items-center justify-content-center gap-5"
+          >
+            <div class="g-col-6 g-col-md-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="assets/g1.jpg"
+                  class="card-img-top"
+                  width="100%"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eos tempore dolorum vero alias eaque praesentium.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-6 g-col-md-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="assets/g2.jpg"
+                  class="card-img-top"
+                  width="100%"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eos tempore dolorum vero alias eaque praesentium.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="g-col-6 g-col-md-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="assets/g3.jpg"
+                  class="card-img-top"
+                  width="100%"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eos tempore dolorum vero alias eaque praesentium.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sec1 End -->
+
+        <!-- Sec2 start -->
+        <div class="my-5 bg-img-sec-2">
+          <div
+            class="shaded d-flex align-items-center justify-content-center flex-column"
+          >
+            <div class="hero-content container text-center">
+              <h1>Beach Getaways</h1>
+              <p>
+                Escape to paradise with our exquisite beach destinations.
+                Picture yourself relaxing on powdery sands, swimming in
+                crystal-clear waters, and soaking up the sun's warmth. Whether
+                you're a beachcomber, a water sports enthusiast, or someone
+                seeking tranquility, our beach getaways have something for
+                everyone.
+              </p>
+              <button class="btn btn-warning">View All Destinations</button>
+            </div>
+          </div>
+        </div>
+        <!-- Sec2 end -->
+        <!-- Parent Sec for 3,4 start -->
+        <div id="journey">
+          <div class="container text-center">
+            <h1>Your Journey, Our Expertise</h1>
+            <p>Explore, Experience, Embrace - Your Journey Awaits.</p>
+            <hr class="m-5" />
+          </div>
+          <!-- Sec3 start -->
+          <div class="container mt-2 py-5">
+            <div class="row g-0 text-center">
+              <div class="col-6 col-md-4">
+                <img
+                  src="assets/sec-3.jpg"
+                  alt="..."
+                  width="100%"
+                  class="h-100"
+                />
+              </div>
+              <div class="col-sm-6 col-md-8 text-start ps-5">
+                <h2>Travel Services and Ticket Booking</h2>
+                <p>
+                  Planning your journey is made simple with our comprehensive
+                  range of travel services. From booking your flights and
+                  accommodations to securing tickets for tours and activities,
+                  we've got you covered every step of the way. Our user-friendly
+                  platform ensures hassle-free travel arrangements, so you can
+                  focus on creating unforgettable memories. Choose from a wide
+                  array of options to suit your budget and preferences, all
+                  designed to make your travel experience seamless and
+                  enjoyable. Let us handle the logistics while you embark on
+                  your dream adventure.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Sec3 end -->
+
+          <!-- Sec4 start -->
+          <div class="container mt-2 mb-2 py-5">
+            <div class="row g-0 text-center">
+              <div class="col-sm-6 col-md-8 text-start pe-5">
+                <h2>Seamless Travel Planning</h2>
+                <p>
+                  Embark on a journey with confidence and ease through our
+                  travel planning services. We're your one-stop destination for
+                  all your travel needs. Our platform allows you to book
+                  flights, accommodations, and tour tickets effortlessly.
+                  Whether you're seeking a weekend getaway or an extended
+                  adventure, we're here to simplify the entire process. With a
+                  range of options to suit your preferences, you can trust us to
+                  handle the logistics while you focus on exploring the world
+                  and creating cherished memories.
+                </p>
+              </div>
+              <div class="col-6 col-md-4">
+                <img
+                  src="assets/sec-4.jpeg"
+                  alt="..."
+                  width="100%"
+                  class="h-100"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Sec4 end -->
+        </div>
+        <!-- Parent Sec for 3,4 end -->
+
+        <!-- Sec5 Start -->
+        <div class="container mt-5 text-center">
+          <h1>Book Your Adventure Today</h1>
+          <p>
+            Your journey of a lifetime is just a click away. Whether you're
+            embarking on a solo adventure, planning a romantic escape, or
+            organizing a group expedition, we've got you covered. Let us make
+            your travel dreams a reality. Start exploring the world with us
+            today and create memories that will last a lifetime.
+          </p>
+          <button class="btn btn-warning">Start Exploring</button>
+        </div>
+        <!-- Sec5 End -->
+
+        <hr class="container my-5" />
+
+        <!-- Sec6 start -->
+        <div class="container mt-5">
+          <div class="clearfix">
+            <img
+              src="assets/sec-1.jpg"
+              class="col-md-6 float-md-end mb-3 ms-md-3"
+              width="100%"
+              alt="..."
+            />
+            <h1>Explore the World's Wonders</h1>
+            <p>
+              Dive into a world of breathtaking landscapes, fascinating
+              cultures, and unforgettable experiences. Our travel experts have
+              carefully curated a selection of the most remarkable destinations
+              on the planet. Whether you're an adventurer, a culture enthusiast,
+              or simply looking to relax in paradise, we have the perfect
+              journey waiting for you.
+            </p>
+            <p>
+              Explore the world's wonders with our travel experiences. Our
+              expertly curated journeys offer a combination of unique features
+              that make your trip truly unforgettable. Our guided tours provide
+              the opportunity to join knowledgeable guides who lead you through
+              the heart of each destination, revealing hidden gems and local
+              secrets.
+            </p>
+          </div>
+        </div>
+        <!-- Sec6 end -->
+
+        <!-- Sec7 start -->
+        <div class="mt-5 bg-img">
+          <div
+            class="shaded d-flex align-items-center justify-content-center flex-column"
+          >
+            <div class="container hero-content text-center">
+              <h1>Stay Connected with Us</h1>
+              <p>
+                We're here to keep your travel dreams alive. Subscribe to our
+                newsletter to receive the latest updates, travel tips, and
+                exclusive offers. Follow us on social media to join a community
+                of fellow travelers, and share your own adventures with us. Your
+                journey doesn't end when you return home; it's a lifelong
+                passion.
+              </p>
+              <button class="btn btn-warning">Explore More Destinations</button>
+            </div>
+          </div>
+        </div>
+        <!-- Sec7 end -->
+      </div>
+      <!-- Main End -->
+
+      <!-- Footer Start -->
+      <div id="footer">
+        <footer>
+          <div
+            class="d-flex justify-content-between align-items-center bg-black text-white"
+          >
+            <div class="my-2 mx-3">
+              <p>
+                © 2023 <b>Landing Page</b>. Designed for
+                <a href="" class="link text-warning">Travel Agency</a>
+              </p>
+            </div>
+            <div>
+              <ul
+                class="footer_social d-flex justify-content-center align-items-center me-5"
+                style="list-style-type: none"
+              >
+                <li class="m-2">Follow us:</li>
+
+                <li class="mx-2">
+                  <a><i class="fab fa-twitter text-info"></i></a>
+                </li>
+
+                <li class="mx-2">
+                  <a><i class="fab fa-pinterest text-danger"></i></a>
+                </li>
+
+                <li class="mx-2">
+                  <a><i class="fab fa-facebook-square text-primary"></i></a>
+                </li>
+
+                <li class="mx-2">
+                  <a><i class="fab fa-instagram text-danger"></i></a>
+                </li>
+
+                <li class="mx-2">
+                  <a><i class="fab fa-skype text-info"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- Footer End -->
+    </div>
+
+    <!-- BootStrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
